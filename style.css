@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+
+}
+body{
+    background:radial-gradient(rgba(2, 44, 5, 0.7) 40%,rgba(2, 44, 5,0.96)) 40%, url(./images/depositphotos_103945092-stock-illustration-sketchy-vector-hand-drawn-doodles.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    overflow-y: hidden;
+
+}
+.contain{
+    position: relative;
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.contain h3{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: -20px;
+    padding-bottom: 1rem;
+}
+.contain h1{
+    color: goldenrod;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+
+}
+.contain p{
+    font-size: .8rem;
+    padding-bottom: 1rem;
+
+}
+
+input, input:focus{
+    outline: none;
+    border: none;
+
+}
+.contain input{
+    margin-top: .3rem;
+    padding: 1rem 3.5rem;
+    font-size: .9rem;
+    border-radius: .2rem;
+    color: black;
+
+
+}
+.gameStart{
+    margin-top: .3rem;
+    padding: 1rem 6rem;
+
+
+}
+#add-later{
+    color:goldenrod;
+}
+
+#game{
+    position: relative;
+    top: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#bj-text{
+    font-size: 3rem;
+    color: goldenrod;
+}
+#bj-subtext{
+    font-size: 1rem;
+    padding-top: 2rem; 
+    font-style: italic;   
+    color: rgb(241, 15, 15);
+    
+}
+#bj-cards{
+    padding-top: 2rem;
+}
+
+button{
+    border-radius: .2rem;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    font-size: 1rem;
+}
+button:active{
+    transform: scale(0.92);
+    transition: ease-in-out 0.02s;
+}
+
+#start-game{
+    margin-top: .5rem;
+    padding: 1rem 6rem;
+
+}
+
+#new-card{
+    margin-top : -.8rem;
+    padding: 1rem 6.3rem;
+
+}
+#bj-sum, .player-info{
+    padding-top: 2rem;
+}
